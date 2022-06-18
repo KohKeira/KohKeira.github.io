@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Portfolio</title>
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8d591118a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links" id="navLinks">
+            <div class="logo"><a href="#">Keira's e-Portfolio</a></div>
+            <ul id="menu">
+                <div class="icon close-btn">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                </div>
+                <li><a href="#home" onclick="hideMenu()">Home</a></li>
+                <li><a href="#experiences" onclick="hideMenu()">Experiences</a></li>
+                <li><a href="#achievements" onclick="hideMenu()">Achievements</a></li>
+                <li><a href="#contact_me" onclick="hideMenu()">Contact Me</a></li>
+            </ul> 
+            <div class="icon menu-btn">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div> 
+        </div>
+    </nav>
+       
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="content">
+                <div class="typewriter">
+                    <h1>Creating Tommorrow</h1>
+                </div>
+                <h2>Hi! My name is Keira!</h2>
+                <h4>As an individual passionate about coding, <br> I aim to conribute to the society with my expertise. </h4>    
+                <a href="#experiences" class="home_btn">Click to know more</a>
+            </div>
+            <div class="profile-img">
+                <img src="img/profile.jpg">
+            </div>
+        </div>  
+    </section>
+    
+    <section class="experiences" id="experiences">
+        <h1>Experiences</h1>
+        <h3>My journey starts here...</h3>
+        <div class="info">
+            <div class="slider">
+                <input type="radio" name="slider" checked="checked">
+                <div class="imgBx">
+                    <div class="content">
+                        <h2>Being part of the EXCO</h2>
+                        <p>As a member of the Executive Committee, I was involved in many projects. For example, my team had to plan for major events like Teachers' Day Celebration.
+                        I learnt the importance of teamwork through the many collaborations and I am inspired to serve the community.</p>
+                    </div>
+                    <div class="exp_img">
+                        <img src="img/EXCO.jpg">
+                    </div>
+                    
+                </div>
+                <input type="radio" name="slider">
+                <div class="imgBx">
+                    <div class="content">
+                        <h2>Being a volunteer</h2>
+                        <p>I enjoy spending time with the elderly at the old folks'home as they remind me of my grandparents. To me,
+                        it is my pleasure to be able to give back to the society, no matter how limited my ability is. It is rewarding to see the smiles on their faces, 
+                        knowing that we have given them happiness.
+                        </p>
+                    </div>
+                    <div class="exp_img">
+                        <img src="img/volunteer.jpg">
+                    </div>
+                </div>
+                <input type="radio" name="slider">
+                <div class="imgBx">                  
+                    <div class="content">
+                        <h2>Being part of the International Chess Club</h2>
+                        <p>In my first year, I had the chance to be a representative of my CCA. It was a memorable experience as it was the only Open House I particpated offline.
+                        I have honed my skills to be able to interact with parents and my future schoolmates. Some of them even joined Ngee Ann because of Chess Club!
+                        </p>
+                    </div>
+                    <div class="exp_img">
+                        <img src="img/cca fair.jpg">
+                    </div>
+                </div>
+                <input type="radio" name="slider">
+                <div class="imgBx">
+                    <div class="content">
+                        <h2>Being part of the International Chess Club</h2>
+                        <p>Every year, I have the opportunity to represent my school in many chess events. I like to challenge myself and embrace them with an open mind.
+                        Chess requires strong mental resilience, the ability to remain compose even ifI am losing. I have dealt with stress countless of times to emerge victorious.
+                        </p>
+                    </div>
+                    <div class="exp_img">
+                        <img src="img/chess team.jpg">
+                    </div>
+                </div>
+                <input type="radio" name="slider">
+                <div class="imgBx">                  
+                    <div class="content">
+                        <h2>Being exposed to technology</h2>
+                        <p> Since young, I always have an interest in technology. I learnt how to do Python programming after taking up Computing in Secondary 3.
+                        Apart from that, I also participated in the AI internship by Temasek Polytechnic. Technology is very useful in our everyday lives, and this has motivated 
+                        me to work hard and join this industry in the future.
+                        </p>
+                    </div>
+                    <div class="exp_img">
+                        <img src="img/machine learning.jpg">
+                    </div>
+                </div>
+            </div>
+            <h2>Other Programmes and Milestones</h2>
+                <div class="programmes">
+                    <div class="card">
+                        <div class="programme_content">
+                            <div class="front">
+                                <h3>Temasek Polytechnic<br>AI Internship</h3>
+                                <div class="click">
+                                    <p>Click for more</p>
+                                </div>                            
+                            </div>
+                            <div class="back">
+                                <p>During the one week attachment, I learnt how to create my very own
+                                text classifier algorithm that can discern fake news from real news. I was able to get a first hand experience in Machine 
+                                Learning under the guidance of the professor. I was shown how technology can help make the world a better place by solving 
+                                real life issues.          
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="programme_content">
+                            <div class="front">
+                                <h3>Google Kick Start</h3>
+                                <div class="click">
+                                    <p>Click for more</p>
+                                </div>                            
+                            </div>
+                            <div class="back">
+                                <p>I particpated in a few rounds and was amazed at how others can code so quickly. This has motivated me to 
+                                    constantly improve my coding skills while gaining exposure to the different problems. I aspire to master other
+                                    programming language such as C++.        
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="programme_content">
+                            <div class="front">
+                                <h3>Starlight</h3>
+                                <div class="click">
+                                    <p>Click for more</p>
+                                </div>                            
+                            </div>
+                            <div class="back">
+                                <p>This programme is to develop students with potential to contribute more to the society through
+                                reflection and coaching sessions with our teachers. One event that I atteneded was the Budget Day, where we learnt how the country spends 
+                                the money in places such as healthcare and education that will develop Singapore
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="programme_content">
+                            <div class="front">
+                                <h3>International Chess</h3>
+                                <div class="click">
+                                    <p>Click for more</p>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <p>As the vice-president, I have seen more people that have excellent skils join and am pleased to see that Chess is becoming
+                                    more popular. My leadership journey has not been smooth sailing and I must thank mmy teachers and the EXCO for their support.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="programme_content">
+                            <div class="front">
+                                <h3>SPARKS</h3>
+                                <div class="click">
+                                    <p>Click for more</p>
+                                </div>                            
+                            </div>
+                            <div class="back">
+                                <p>As a Mathematics and Science oriented programme, we conducted a sciencific research and played with ​drones.
+                                    We did an investigation on how the materials of reusable masks affect the loudness of the wearer.
+                                    The programme has developed my critical thinking skill as I have to think out of the box when managing challenges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="programme_content">
+                            <div class="front">
+                                <h3>CHAMPS</h3>
+                                <div class="click">
+                                    <p>Click for more</p>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <p>CHAMPS is a Humanities programme that has many different aspects, such as Philosopy and Model United Nations (MUN).
+                                Global issues such as human trafficking were discussed and we have to come up with resolutions.
+                                This has given me greater confidence as I have to overcome my fear of public speaking and speak in front of other students.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+        <h1>Achievements</h1>
+        <div class="content">
+            <div class="grid_item secondary">
+                <h2>Secondary School</h2>
+                <h5>Singapore Mathematical Olympiad (Junior)</h5>
+                <p>2019, 2020 - Bronze</p>
+                <h5>Singapore Mathematical Olympiad (Senior) </h5>
+                <p>2021 - Bronze</p>
+
+                <h5>Singapore Youth Festival</h5>
+                <p>​SYF 2020 Art Exhibition: Artist and Technology</p>
+
+                <h5>​Drones Programming Workshop</h5>
+                <p>​Certificate of Achievement</p>                
+                <h5>​Engineering@SP</h5>
+                <p>​Young Engineer (Achievement)</p>
+
+                <h5>​Singapore Science & Engineering Fair 2021</h5>
+                <p>​Certificate of Participation</p>
+
+                <h5>​2021 East Zone A*Star Science Fair</h5>
+                <p>​Certificate of Participation</p>
+
+                <h5>Bebras Challenge 2021-2022</h5>
+                <p>Best of School (Junior)</p>
+            </div>
+            <div class="grid_item MOE">
+                <h2>MOE Awards</h2>
+                <h5>Edusave Certificate of Academic Achievement</h5>
+                <p>2014, 2015, 2016</p>
+                <h5>Edusave Good Progress Award</h5>
+                <p>2014</p>
+                <h5>Edusave Scholarship</h5>
+                <p>2017, 2018, 2019, 2020, 2021</p>
+                <h5>EAGLES</h5>
+                <p>2017, 2018, 2021</p>
+            </div>
+            <div class="grid_item CCA">
+                <h2>International Chess</h2>
+                <h5>National Schools individual Chess Competition</h5>
+                <p>2019 - East Zone U14 Girls 5th</p>
+                <p>2021 (Online) - East Zone U16 Girls 1st, National 17th</p>
+                <h5>National Inter-School Team Chess Competition</h5>
+                <p>2019 - East Zone U14 Girls 2nd</p>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="contact_me" id="contact_me">
+        <div class="content">
+            <h1>Contact Me</h1>
+            <p>Feel free to contact me by submitting the form below if you have any queries!</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email Address</h3>
+                        <p>kohkeira996@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Instagram</h3>
+                        <a target="_blank" href="https://www.instagram.com/keirakoh/">@keirakoh</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="text">
+                        <h3>GitHub</h3>
+                        <a target="_blank" href="https://github.com/KohKeira">KohKeira</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="https://formsubmit.co/71a090c246bee8d47ef1c8a5ad49937b" method="POST">
+                    <h2>Send Message</h2>
+                    <p>by FormSubmit</p>
+                    <input type="hidden" name="_subject" value="Message from e-Portfolio!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="inputBox">
+                        <input type="text" name="Name" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="Email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="Message" required="required">
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-----JavaScript for Toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        menu.style.right = "0";
+    }
+    function hideMenu(){
+        menu.style.right = "-100%";
+    }
+</script>
+
+</body>
+</html>
