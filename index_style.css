@@ -67,7 +67,7 @@ h1{
 
 /*--------- home -----------*/
 .home{
-    background-color:rgb(255, 255, 234);
+    background-color: #f8edeb;
     height: 100vh;
     width: 100%;
     flex-direction: row;
@@ -82,14 +82,16 @@ h1{
 .typewriter{
     width: fit-content;
     height: fit-content;
+    margin-bottom: 20px;
 }
 .typewriter h1 {
     font-size: 40px;
+    text-align: left;
     font-family:Arial, Helvetica, sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 3px solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0; /* Gives that scrolling effect as the typing happens */
+    padding: 0;
     letter-spacing: 5px; /* Adjust as needed */
     animation: 
       typing 3.5s steps(40, end),
@@ -311,7 +313,7 @@ h1{
    
 }
 .grid_item{
-    background-color: beige;
+    background-color: #ffe5d9;
     padding: 20px;
     border-radius: 10px;
 }
@@ -490,6 +492,10 @@ h1{
     .home .home-container{
         flex-direction: column-reverse;
         width: 100%;
+        margin: 0 15px;
+    }
+    .home .content{
+        width: 100%;
     }
     .typewriter h1{
         font-size: 30px;
@@ -531,21 +537,21 @@ h1{
         margin-bottom: 20px;
     }
     .experiences .card{
-        width: 300px;
+        width: 340px;
         height: 210px;
     }
     .programme_content h3{
         font-size: 15px;
     }
     .programme_content p{
-        font-size: 13px;
+        font-size: 14px;
     }
 
     /*--------- achievements -----------*/
 
     .achievements .content{
         grid-template-columns: auto; 
-        margin: 15px 40px;
+        margin: 15px 30px;
     }
     .achievements .content h2{
         padding: 10px;
@@ -592,6 +598,13 @@ h1{
         font-size: 15px;
     }
 
+}
+
+@media (max-width:400px ){
+    .typewriter h1{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
 }
 
 
